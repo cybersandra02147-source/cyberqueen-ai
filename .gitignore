@@ -1,0 +1,16 @@
+users.db
+*.db
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+.npm/
+generated_sites/
+uploaded_logos/
+
+*.backup*
+bot_backup*.py
+bot_before_*.py
+website_generator_backup.py
+website_generator_before_*.py

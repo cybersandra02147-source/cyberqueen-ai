@@ -1,0 +1,16 @@
+import os
+
+PUBLIC_BASE_URL = os.getenv(
+    "PUBLIC_BASE_URL",
+    "http://127.0.0.1:8080"
+)
+
+TOKEN = os.environ.get("8817681240:AAFsgLYpkzIx0sadsRJX9rB0WmOJom52RU8")
+
+PAYMENT_PROVIDER = ""
+PAYMENT_PUBLIC_KEY = ""
+PAYMENT_SECRET_KEY = ""
+PAYMENT_WEBHOOK_SECRET = ""
+
+PLATFORM_NAME = "CyberQueen AI"
+CURRENCY = "USD"
