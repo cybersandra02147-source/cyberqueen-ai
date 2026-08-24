@@ -2,5 +2,5 @@ services:
   - type: web
     name: cyberqueen-sites
     runtime: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install -r requirements.txt && python render_init.py
     startCommand: gunicorn site_server:app --bind 0.0.0.0:$PORT
